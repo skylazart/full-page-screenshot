@@ -1,0 +1,16 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE — JetBrains / WebStorm
+.idea/
+
+# IDE — VS Code
+.vscode/
+
+# Saved test screenshots
+saved/
+
+# Claude files
+PROMPT.md
