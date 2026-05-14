@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Full Page Screenshot",
+  "version": "1.2",
+  "description": "Capture a full-page screenshot of the current tab and save to Downloads.",
+  "permissions": ["activeTab", "debugger", "downloads"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Full Page Screenshot"
+  }
+}
